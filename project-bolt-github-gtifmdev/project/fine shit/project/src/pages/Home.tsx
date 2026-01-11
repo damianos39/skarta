@@ -109,39 +109,39 @@ export default function Home() {
 
   return (
     <div className="relative">
-      <section className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center px-4 sm:px-6 lg:px-8 overflow-hidden py-16 sm:py-20">
+      <section className="relative min-h-[85vh] sm:min-h-[90vh] flex items-center justify-center px-5 sm:px-6 lg:px-8 overflow-hidden py-10 sm:py-20">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent pointer-events-none" />
         <div className="max-w-5xl mx-auto text-center relative z-10">
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-6 sm:mb-8 leading-tight">
-            <span className="block text-slate-100 mb-2 sm:mb-3">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-7xl font-bold mb-5 sm:mb-8 leading-tight">
+            <span className="block text-slate-100 mb-3 sm:mb-3">
               AI Automation Is Becoming
             </span>
             <span className="block bg-gradient-to-r from-cyan-400 via-emerald-400 to-blue-400 bg-clip-text text-transparent">
               Operational Infrastructure
             </span>
           </h1>
-          <p className="text-lg sm:text-xl md:text-2xl text-slate-300 mb-4 sm:mb-6 leading-relaxed max-w-4xl mx-auto">
+          <p className="text-xl sm:text-xl md:text-2xl text-slate-300 mb-5 sm:mb-6 leading-relaxed max-w-4xl mx-auto">
             Control It Early — Or Spend Years Catching Up.
           </p>
-          <p className="text-base sm:text-lg text-slate-400 mb-8 sm:mb-12 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg sm:text-lg text-slate-400 mb-6 sm:mb-12 leading-relaxed max-w-3xl mx-auto">
             We design and deploy AI automation systems that replace fragile manual
             workflows with scalable operational infrastructure — across sales, support,
             and internal operations.
           </p>
-          <p className="text-base sm:text-lg font-medium text-emerald-400 mb-8 sm:mb-12">
+          <p className="text-lg sm:text-lg font-medium text-emerald-400 mb-7 sm:mb-12">
             Your competitors are not "experimenting" anymore. They are systematizing.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center max-w-2xl mx-auto">
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white text-base sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/30 animate-pulse-glow"
+              className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/30 animate-pulse-glow"
             >
               Request an Automation Audit
-              <ArrowRight className="ml-2" size={18} />
+              <ArrowRight className="ml-2" size={20} />
             </Link>
             <Link
               to="/examples"
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-slate-800/50 backdrop-blur-sm border-2 border-cyan-500/30 text-cyan-400 text-base sm:text-lg font-semibold rounded-lg hover:bg-slate-800/70 hover:border-cyan-400/50 transition-all duration-300"
+              className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-slate-800/50 backdrop-blur-sm border-2 border-cyan-500/30 text-cyan-400 text-lg sm:text-lg font-semibold rounded-lg hover:bg-slate-800/70 hover:border-cyan-400/50 transition-all duration-300"
             >
               See Example Systems
             </Link>
@@ -149,116 +149,116 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-slate-900/40 to-slate-800/20 backdrop-blur-sm border-2 border-cyan-500/30 rounded-2xl p-6 sm:p-8 md:p-12 shadow-xl shadow-cyan-500/10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-slate-100">
+          <div className="bg-gradient-to-br from-slate-900/40 to-slate-800/20 backdrop-blur-sm border-2 border-cyan-500/30 rounded-2xl p-7 sm:p-8 md:p-12 shadow-xl shadow-cyan-500/10">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-slate-100">
               This Is Not About AI Hype
             </h2>
-            <p className="text-base sm:text-lg text-slate-300 mb-4 sm:mb-6 leading-relaxed">
+            <p className="text-lg sm:text-lg text-slate-300 mb-5 sm:mb-6 leading-relaxed">
               Most businesses will not lose because they ignored AI. They will lose
               because they implemented it without structure.
             </p>
-            <p className="text-base sm:text-lg text-slate-300 mb-4 sm:mb-6 leading-relaxed">
+            <p className="text-lg sm:text-lg text-slate-300 mb-5 sm:mb-6 leading-relaxed">
               AI added on top of broken workflows does not create leverage — it creates
               hidden operational risk.
             </p>
-            <p className="text-lg sm:text-xl font-semibold text-emerald-400">
+            <p className="text-xl sm:text-xl font-semibold text-emerald-400">
               We don't sell tools. We design systems.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8 bg-slate-900/20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-center text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-center text-slate-100">
             The Real Bottleneck Isn't Your Team
           </h2>
-          <p className="text-base sm:text-lg text-slate-300 mb-8 sm:mb-12 text-center max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-7 sm:mb-12 text-center max-w-3xl mx-auto leading-relaxed">
             When performance breaks under growth, it's rarely a people problem. It's
             usually one of these:
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4 mb-8 sm:mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-4 mb-7 sm:mb-12">
             {bottlenecks.map((bottleneck, index) => (
               <div
                 key={index}
-                className="flex items-start gap-3 bg-slate-900/40 backdrop-blur-sm border-2 border-red-500/30 rounded-xl p-4 sm:p-6 hover:border-red-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20"
+                className="flex items-start gap-3 bg-slate-900/40 backdrop-blur-sm border-2 border-red-500/30 rounded-xl p-5 sm:p-6 hover:border-red-400/50 transition-all duration-300 hover:shadow-lg hover:shadow-red-500/20"
               >
                 <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-500/20 border-2 border-red-500/50 flex items-center justify-center mt-0.5">
                   <div className="w-2 h-2 rounded-full bg-red-500" />
                 </div>
-                <p className="text-sm sm:text-base text-slate-300">{bottleneck}</p>
+                <p className="text-base sm:text-base text-slate-300">{bottleneck}</p>
               </div>
             ))}
           </div>
-          <p className="text-lg sm:text-xl font-semibold text-orange-400 text-center">
+          <p className="text-xl sm:text-xl font-semibold text-orange-400 text-center">
             Growth exposes weak systems.
           </p>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-center text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-center text-slate-100">
             What We Build
           </h2>
-          <p className="text-base sm:text-lg text-slate-300 mb-12 sm:mb-16 text-center max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-8 sm:mb-16 text-center max-w-3xl mx-auto leading-relaxed">
             Custom AI automation systems designed around real operational constraints —
             not templates.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
             {solutions.map((solution, index) => (
               <Link
                 key={index}
                 to={solution.link}
-                className={`group bg-slate-900/40 backdrop-blur-sm border-2 ${solution.colors} rounded-xl p-5 sm:p-6 hover:bg-slate-900/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 active:scale-95`}
+                className={`group bg-slate-900/40 backdrop-blur-sm border-2 ${solution.colors} rounded-xl p-6 sm:p-6 hover:bg-slate-900/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1 active:scale-95`}
               >
-                <h3 className="text-lg sm:text-xl font-semibold mb-2 sm:mb-3 text-slate-100 transition-colors">
+                <h3 className="text-xl sm:text-xl font-semibold mb-3 sm:mb-3 text-slate-100 transition-colors">
                   {solution.title}
                 </h3>
-                <p className="text-sm sm:text-base text-slate-400 leading-relaxed">{solution.description}</p>
+                <p className="text-base sm:text-base text-slate-400 leading-relaxed">{solution.description}</p>
               </Link>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8 bg-slate-900/20">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-amber-500/10 via-slate-900/50 to-orange-500/10 backdrop-blur-sm border-2 border-amber-500/40 rounded-2xl p-6 sm:p-8 md:p-12 shadow-xl shadow-amber-500/10">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-slate-100">
+          <div className="bg-gradient-to-br from-amber-500/10 via-slate-900/50 to-orange-500/10 backdrop-blur-sm border-2 border-amber-500/40 rounded-2xl p-7 sm:p-8 md:p-12 shadow-xl shadow-amber-500/10">
+            <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-slate-100">
               The Mistake Most Companies Will Make
             </h2>
-            <p className="text-base sm:text-lg text-slate-300 mb-4 sm:mb-6 leading-relaxed">
+            <p className="text-lg sm:text-lg text-slate-300 mb-5 sm:mb-6 leading-relaxed">
               They will adopt AI tactically instead of structurally.
             </p>
-            <p className="text-base sm:text-lg text-slate-300 mb-4 sm:mb-6 leading-relaxed">
+            <p className="text-lg sm:text-lg text-slate-300 mb-5 sm:mb-6 leading-relaxed">
               That means:
             </p>
-            <ul className="space-y-2 sm:space-y-3 mb-6 sm:mb-8">
+            <ul className="space-y-3 sm:space-y-3 mb-6 sm:mb-8">
               {['One chatbot here', 'One automation there', 'No unified logic', 'No ownership', 'No scalability'].map(
                 (item, index) => (
-                  <li key={index} className="flex items-center gap-3 text-sm sm:text-base text-slate-300">
+                  <li key={index} className="flex items-center gap-3 text-base sm:text-base text-slate-300">
                     <span className="text-amber-400 text-lg">—</span>
                     {item}
                   </li>
                 )
               )}
             </ul>
-            <p className="text-lg sm:text-xl font-semibold text-amber-400 mb-3 sm:mb-4">
+            <p className="text-xl sm:text-xl font-semibold text-amber-400 mb-4 sm:mb-4">
               Fragmented automation becomes technical debt.
             </p>
-            <p className="text-base sm:text-lg text-slate-300">
+            <p className="text-lg sm:text-lg text-slate-300">
               We design systems that compound — not patch.
             </p>
           </div>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-12 sm:mb-16 text-center text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-16 text-center text-slate-100">
             How It Works
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-8 sm:mb-12">
@@ -298,10 +298,10 @@ export default function Home() {
                 <div className="absolute top-4 sm:top-6 left-4 sm:left-6 text-4xl sm:text-5xl font-bold text-cyan-500/10">
                   {step.number}
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-slate-100 text-center">
+                <h3 className="text-xl sm:text-xl font-semibold mb-4 sm:mb-4 text-slate-100 text-center">
                   {step.title}
                 </h3>
-                <p className="text-sm sm:text-base text-slate-400 leading-relaxed text-center">
+                <p className="text-base sm:text-base text-slate-400 leading-relaxed text-center">
                   {step.description}
                 </p>
               </div>
@@ -310,27 +310,27 @@ export default function Home() {
           <div className="text-center">
             <Link
               to="/contact"
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white text-base sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/30"
+              className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/30"
             >
               Request an Automation Audit
-              <ArrowRight className="ml-2" size={18} />
+              <ArrowRight className="ml-2" size={20} />
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8 bg-slate-900/20">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-center text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-center text-slate-100">
             Why This Works
           </h2>
-          <p className="text-base sm:text-lg text-slate-300 mb-8 sm:mb-12 text-center leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-7 sm:mb-12 text-center leading-relaxed">
             We don't ask you to trust claims. We show functioning systems.
           </p>
-          <p className="text-base sm:text-lg text-slate-300 mb-6 sm:mb-8 text-center leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-6 sm:mb-8 text-center leading-relaxed">
             Instead of "success stories", we provide:
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-8 sm:mb-12">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-4 mb-8 sm:mb-12">
             {benefits.map((benefit, index) => {
               const colors = [
                 'border-cyan-500/30 hover:border-cyan-400/50 text-cyan-400 hover:shadow-cyan-500/20',
@@ -342,10 +342,10 @@ export default function Home() {
               return (
                 <div
                   key={index}
-                  className={`flex items-center gap-3 bg-slate-900/40 backdrop-blur-sm border-2 ${colorClass} rounded-xl p-4 sm:p-6 transition-all duration-300 hover:shadow-lg`}
+                  className={`flex items-center gap-3 bg-slate-900/40 backdrop-blur-sm border-2 ${colorClass} rounded-xl p-5 sm:p-6 transition-all duration-300 hover:shadow-lg`}
                 >
                   <CheckCircle className={`flex-shrink-0 ${colorClass.split(' ')[2]}`} size={22} />
-                  <p className="text-sm sm:text-base text-slate-300">{benefit}</p>
+                  <p className="text-base sm:text-base text-slate-300">{benefit}</p>
                 </div>
               );
             })}
@@ -353,24 +353,24 @@ export default function Home() {
           <div className="text-center">
             <Link
               to="/examples"
-              className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-slate-800/50 backdrop-blur-sm border-2 border-emerald-500/30 text-emerald-400 text-base sm:text-lg font-semibold rounded-lg hover:bg-slate-800/70 hover:border-emerald-400/50 transition-all duration-300"
+              className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-slate-800/50 backdrop-blur-sm border-2 border-emerald-500/30 text-emerald-400 text-lg sm:text-lg font-semibold rounded-lg hover:bg-slate-800/70 hover:border-emerald-400/50 transition-all duration-300"
             >
               View Example Automations
-              <ArrowRight className="ml-2" size={18} />
+              <ArrowRight className="ml-2" size={20} />
             </Link>
           </div>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-12 text-center text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-7 sm:mb-12 text-center text-slate-100">
             Who This Is For
           </h2>
-          <p className="text-base sm:text-lg text-slate-300 mb-6 sm:mb-8 text-center leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-6 sm:mb-8 text-center leading-relaxed">
             You'll benefit most if:
           </p>
-          <div className="space-y-3 sm:space-y-4 mb-12">
+          <div className="space-y-4 sm:space-y-4 mb-12">
             {idealFor.map((item, index) => {
               const colors = [
                 'border-cyan-500/30 text-cyan-400',
@@ -383,10 +383,10 @@ export default function Home() {
               return (
                 <div
                   key={index}
-                  className={`flex items-start gap-3 bg-slate-900/40 backdrop-blur-sm border-2 ${colorClass} rounded-xl p-4 sm:p-6 hover:border-opacity-60 transition-all duration-300`}
+                  className={`flex items-start gap-3 bg-slate-900/40 backdrop-blur-sm border-2 ${colorClass} rounded-xl p-5 sm:p-6 hover:border-opacity-60 transition-all duration-300`}
                 >
-                  <CheckCircle className={`flex-shrink-0 mt-0.5 ${colorClass.split(' ')[1]}`} size={20} />
-                  <p className="text-sm sm:text-base text-slate-300">{item}</p>
+                  <CheckCircle className={`flex-shrink-0 mt-0.5 ${colorClass.split(' ')[1]}`} size={22} />
+                  <p className="text-base sm:text-base text-slate-300">{item}</p>
                 </div>
               );
             })}
@@ -394,38 +394,38 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8 bg-slate-900/20">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8 bg-slate-900/20">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6 text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-slate-100">
             AI Automation Is a Strategic Decision
           </h2>
-          <p className="text-base sm:text-lg text-slate-300 mb-4 sm:mb-6 leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-5 sm:mb-6 leading-relaxed">
             In the next 12–18 months, AI-driven operations will stop being a competitive
             edge.
           </p>
-          <p className="text-base sm:text-lg text-slate-300 mb-4 sm:mb-6 leading-relaxed">
+          <p className="text-lg sm:text-lg text-slate-300 mb-5 sm:mb-6 leading-relaxed">
             They will become baseline.
           </p>
-          <p className="text-lg sm:text-xl text-slate-300 mb-8 sm:mb-12 leading-relaxed">
+          <p className="text-xl sm:text-xl text-slate-300 mb-8 sm:mb-12 leading-relaxed">
             The question is whether you design your systems early — or inherit complexity
             later.
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white text-base sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-orange-500/30 animate-pulse-glow-orange"
+            className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-orange-500/30 animate-pulse-glow-orange"
           >
             Request an Automation Audit
-            <ArrowRight className="ml-2" size={18} />
+            <ArrowRight className="ml-2" size={20} />
           </Link>
         </div>
       </section>
 
-      <section className="relative py-16 sm:py-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold mb-12 sm:mb-16 text-center text-slate-100">
+          <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-8 sm:mb-16 text-center text-slate-100">
             FAQs
           </h2>
-          <div className="space-y-4 sm:space-y-6">
+          <div className="space-y-5 sm:space-y-6">
             {faqs.map((faq, index) => {
               const colors = [
                 'border-cyan-500/30 hover:border-cyan-400/50',
@@ -440,12 +440,12 @@ export default function Home() {
               return (
                 <div
                   key={index}
-                  className={`bg-slate-900/40 backdrop-blur-sm border-2 ${colorClass} rounded-xl p-5 sm:p-6 md:p-8 transition-all duration-300 hover:shadow-lg`}
+                  className={`bg-slate-900/40 backdrop-blur-sm border-2 ${colorClass} rounded-xl p-6 sm:p-6 md:p-8 transition-all duration-300 hover:shadow-lg`}
                 >
-                  <h3 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-slate-100">
+                  <h3 className="text-xl sm:text-xl font-semibold mb-4 sm:mb-4 text-slate-100">
                     {faq.question}
                   </h3>
-                  <p className="text-sm sm:text-base text-slate-300 leading-relaxed">{faq.answer}</p>
+                  <p className="text-base sm:text-base text-slate-300 leading-relaxed">{faq.answer}</p>
                 </div>
               );
             })}
